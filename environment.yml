@@ -1,0 +1,14 @@
+name: proposal-gen-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - streamlit
+  - snowflake-connector-python
+  - pandas
+  - openpyxl
+  - python-pptx
+  - pip
+  - pip:
+      - streamlit-option-menu
